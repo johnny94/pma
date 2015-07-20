@@ -2,7 +2,6 @@
 
 echo 'Downloading PhpMyAdmin 4.4.11'
 curl -#L https://files.phpmyadmin.net/phpMyAdmin/4.4.11/phpMyAdmin-4.4.11-all-languages.tar.gz -o phpmyadmin.tar.gz
-
 mkdir phpmyadmin && tar xf phpmyadmin.tar.gz -C phpmyadmin --strip-components 1
 
 rm phpmyadmin.tar.gz
